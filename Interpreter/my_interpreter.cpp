@@ -25,7 +25,7 @@ void MyInterpreter::run() {
     {
         was_exception = true;
         cerr << "Lexical analyzer exception\n";
-        print_exception(my_ex.what(), my_ex.debugInfo);
+        print_exception(my_ex.what(), my_ex.debug_info);
     }
     catch (const std::exception& ex)
     {
@@ -43,7 +43,7 @@ void MyInterpreter::run() {
         {
             was_exception = true;
             cerr << "Generator exception\n";
-            print_exception(my_ex.what(), my_ex.debugInfo);
+            print_exception(my_ex.what(), my_ex.debug_info);
         }
         catch (const std::exception& ex)
         {
@@ -62,7 +62,7 @@ void MyInterpreter::run() {
         {
             was_exception = true;
             cerr << "Interpretator exception\n";
-            print_exception(my_ex.what(), my_ex.debugInfo);
+            print_exception(my_ex.what(), my_ex.debug_info);
         }
         catch (const std::exception& ex)
         {
