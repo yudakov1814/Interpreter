@@ -73,15 +73,15 @@ enum class generatorTask
     MORE_OR_EQUAL, // записать >=
     NOT_EQUAL, // записать !=
     I, // index
-    TASK1,
-    TASK2,
-    TASK3,
-    TASK4,
-    TASK5,
-    TASK6,
-    TASK7,
-    TASK8,
-    TASK9,
+    TASK1, // use with IF and WHILE
+    TASK2, // use with ELSE
+    TASK3, // use with IF
+    TASK4, // use with WHILE
+    TASK5, // use with WHILE
+    TASK6, // use with INT
+    TASK7, // use with ARRAY
+    TASK8, // use with VARS
+    TASK9, // use with VARS
 };
 
 struct magazineItem
