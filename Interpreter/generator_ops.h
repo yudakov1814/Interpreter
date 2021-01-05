@@ -150,4 +150,3 @@ OPS generate_ops(std::vector<lexeme>&);
 std::ostream& operator<<(std::ostream&, const typeOPS&);
 std::ostream& operator<<(std::ostream&, const operationOPS&);
 std::ostream& operator<<(std::ostream&, const generatorTask&);
-std::ostream& operator<<(std::ostream&, const OPS& ops);
